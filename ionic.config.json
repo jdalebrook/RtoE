@@ -1,5 +1,7 @@
 {
   "name": "RtoE",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
