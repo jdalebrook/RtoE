@@ -22,8 +22,7 @@ export class CurrencyService {
         console.log(data);
         if(data){
           this.dataEUR = data;
-          this.cnumberER = this.dataEUR.rates.INR * 0.1;
-
+          this.cnumberER = this.dataEUR.rates.INR
         }
       },
       (error) =>{
@@ -38,8 +37,7 @@ export class CurrencyService {
         console.log(data);
         if(data){
           this.dataINR = data;
-          this.cnumberRE = this.dataINR.rates.EUR;
-
+          this.cnumberRE = this.dataINR.rates.EUR ;
         }
       },
       (error) =>{

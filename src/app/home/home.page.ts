@@ -35,9 +35,9 @@ export class HomePage {
     this.lakhtype = !this.lakhtype;
   }
   calculateCurrencyOne() {
-    this.RupiaResult = this.Euro * this.currencyService.cnumberER;
+    this.RupiaResult = (this.Euro * 10) * this.currencyService.cnumberER;
   }
   calculateCurrencyTwo() {
-    this.EuroResult = this.Rupia * this.currencyService.cnumberRE;
+    this.EuroResult = (this.Rupia * 10) * this.currencyService.cnumberRE;
   }
 }
